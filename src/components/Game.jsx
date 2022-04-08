@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "./Button";
 import Score from "./Score";
+
 class Game extends React.Component {
     constructor(props) {
         super(props);
@@ -35,7 +36,8 @@ class Game extends React.Component {
             "/images/alien_monster.jpg", "/images/anchor.jpg", "/images/cherries.jpg", "/images/cold_face.jpg",
             "/images/french_fries.jpg", "/images/goblin.jpg", "/images/lollipop.jpg", "/images/panda.jpg",
             "/images/alien_monster.jpg", "/images/anchor.jpg", "/images/cherries.jpg", "/images/cold_face.jpg",
-            "/images/french_fries.jpg", "/images/goblin.jpg", "/images/lollipop.jpg", "/images/panda.jpg"]
+            "/images/french_fries.jpg", "/images/goblin.jpg", "/images/lollipop.jpg", "/images/panda.jpg"
+        ]
         let picture = []
         for (let i = 0; i < 16; i++) {
             let numRandom = Math.floor((Math.random() * (array.length)))

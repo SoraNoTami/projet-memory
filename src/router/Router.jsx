@@ -13,8 +13,8 @@ class Router extends React.Component{
       return (
         <div id='players'>
           <Routes>
-              <Route path="/"element={<Player/>}/>
-              <Route path="/player2"element={<Player2/>}/>
+              <Route path="/project-memory"element={<Player/>}/>
+              <Route path="/project-memory/player2"element={<Player2/>}/>
           </Routes>
         </div>
       );
