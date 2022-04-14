@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/projet-memory/static/css/main.c2734574.css",
-    "main.js": "/projet-memory/static/js/main.701eee7f.js",
+    "main.js": "/projet-memory/static/js/main.7167d0d7.js",
     "static/media/bg.jpg": "/projet-memory/static/media/bg.749ea932ff081abaa162.jpg",
     "static/media/Fredoka-VariableFont_wdth,wght.ttf": "/projet-memory/static/media/Fredoka-VariableFont_wdth,wght.250a4e837ebe08c527c7.ttf",
     "index.html": "/projet-memory/index.html",
     "main.c2734574.css.map": "/projet-memory/static/css/main.c2734574.css.map",
-    "main.701eee7f.js.map": "/projet-memory/static/js/main.701eee7f.js.map"
+    "main.7167d0d7.js.map": "/projet-memory/static/js/main.7167d0d7.js.map"
   },
   "entrypoints": [
     "static/css/main.c2734574.css",
-    "static/js/main.701eee7f.js"
+    "static/js/main.7167d0d7.js"
   ]
 }
