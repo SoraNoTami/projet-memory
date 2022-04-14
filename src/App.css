@@ -1,15 +1,18 @@
-@font-face {font-family: Fredoka ;src: url("../public/fonts/Fredoka-VariableFont_wdth\,wght.ttf");}
+@font-face {
+  font-family: Fredoka;
+  src: url("../public/fonts/Fredoka-VariableFont_wdth\,wght.ttf");
+}
 
-body{
+body {
   margin: 0;
   background-image: url(../public/bg.jpg);
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
   z-index: -1;
   overflow: hidden;
 }
 
-img{
+img {
   width: 80px;
   height: 80px;
   user-select: none;
@@ -17,20 +20,22 @@ img{
   pointer-events: none
 }
 
-.animIn{
+.animIn {
   animation: picture 0.5s linear;
   animation-fill-mode: forwards;
-  
+
 }
-.line{
-  display:flex;
+
+.line {
+  display: flex;
   justify-content: left;
   height: 80%;
   width: 70%;
   padding-left: 50px;
   margin-left: 50px;
 }
-.card{
+
+.card {
   width: 11rem;
   height: 6rem;
   justify-content: center;
@@ -39,19 +44,20 @@ img{
   background-color: black;
   margin: 5px;
   border-radius: 10%;
-  justify-content:center;
+  justify-content: center;
   text-align: center;
- }
+}
 
 
- @keyframes picture {
-   0%{
-     opacity: 0%;
-   }
-   100%{
-     opacity: 100%;
-   }
- }
+@keyframes picture {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
 
 
 .score {
@@ -60,7 +66,7 @@ img{
 }
 
 
-.flex-end{
+.flex-end {
   display: flex;
   padding: 20px;
   margin: 5px;
@@ -69,54 +75,52 @@ img{
   border-radius: 15px;
   text-align: center;
   justify-content: space-around;
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
-.flex-end a{
+.flex-end a {
   color: rgb(98, 47, 0);
-  font-size: large;
+  font-size: 1rem;
   font-weight: bolder;
   display: flex;
   font-family: Fredoka;
 }
 
-.scoreCard{
-
-  display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: baseline;
-   border: 1px solid black;
-   border-radius: 15px;
-   background-color:rgb(101, 114, 255);
-   height: 350px;
-   width: 350px;
-   color: rgb(255, 255, 255);
-   align-items: center;
-   font-weight: bold;
-   
-}
-
- #main {
-   display: flex;
- }
-
- #other {
+.scoreCard {
   display: flex;
   flex-direction: column;
- }
+  justify-content: center;
+  align-items: baseline;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: rgb(101, 114, 255);
+  height: 250px;
+  width: 250px;
+  color: rgb(255, 255, 255);
+  align-items: center;
+  font-weight: bold;
+}
 
- #table {
+#main {
+  display: flex;
+}
+
+#other {
+  display: flex;
+  flex-direction: column;
+}
+
+#table {
   display: flex;
   justify-content: center;
   align-items: center;
- }
+}
 
- #game {
+#game {
   margin-top: 40px;
- }
+}
 
- h1 {
+h1 {
   display: flex;
   justify-content: center;
   font-size: 4em;
@@ -125,26 +129,26 @@ img{
   margin-top: 20px;
   color: beige;
   font-family: Fredoka;
- }
- 
- .scoreCard h1 {
-  font-size: 2.5em;
+}
+
+.scoreCard h1 {
+  font-size: 2em;
   padding-bottom: 20px;
   font-family: Fredoka;
- }
+}
 
- h2 {
-  font-size: 2em;
+h2 {
+  font-size: 1.5em;
   font-family: Fredoka;
- }
+}
 
- h3 {
-  font-size: 2em;
+h3 {
+  font-size: 1.5em;
   font-family: Fredoka;
- }
+}
 
- button{
-  background-color: #000000; 
+button {
+  background-color: #000000;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -156,20 +160,19 @@ img{
   border-radius: 15px;
   margin-top: 10px;
   margin-bottom: 10px
- }
+}
 
- #win{
+#win {
   display: flex;
-  padding: 20px;
+  padding: 15px;
   margin: 5px;
   border: 1px solid black;
   background-color: rgb(241, 241, 226);
-  font-size: 1.3em;
+  font-size: 1em;
   font-weight: bold;
   font-family: Fredoka;
   border-radius: 15px;
   text-align: center;
   justify-content: space-around;
-  margin-top: 25px;
- }
- 
+  margin-top: 15px;
+}
