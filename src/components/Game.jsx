@@ -33,10 +33,10 @@ class Game extends React.Component {
 
     componentDidMount = () => {
         let array = [
-            "/images/alien_monster.jpg", "/images/anchor.jpg", "/images/cherries.jpg", "/images/cold_face.jpg",
-            "/images/french_fries.jpg", "/images/goblin.jpg", "/images/lollipop.jpg", "/images/panda.jpg",
-            "/images/alien_monster.jpg", "/images/anchor.jpg", "/images/cherries.jpg", "/images/cold_face.jpg",
-            "/images/french_fries.jpg", "/images/goblin.jpg", "/images/lollipop.jpg", "/images/panda.jpg"
+            "require(/images/alien_monster.jpg)", "require(/images/anchor.jpg)", "require(/images/cherries.jpg)", "require(/images/cold_face.jpg)",
+            "require(/images/french_fries.jpg)", "require(/images/goblin.jpg)", "require(/images/lollipop.jpg)", "require(/images/panda.jpg)",
+            "require(/images/alien_monster.jpg)", "require(/images/anchor.jpg)", "require(/images/cherries.jpg)", "require(/images/cold_face.jpg)",
+            "require(/images/french_fries.jpg)", "require(/images/goblin.jpg)", "require(/images/lollipop.jpg)", "require(/images/panda.jpg)"
         ]
         let picture = []
         for (let i = 0; i < 16; i++) {
