@@ -8,8 +8,8 @@ class WinPlayer2 extends React.Component {
     render() {
         return (
             <>
-            <p id='win'>{this.props.player}</p>
-            <button onClick= {() => window.location.reload()}>Restart</button>
+                <p id='win'>{this.props.player}</p>
+                <button onClick= {() => window.location.reload()}>Restart</button>
             </>
         )
     }

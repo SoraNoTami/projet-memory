@@ -8,7 +8,7 @@ class WinPlayer extends React.Component {
     render() {
         return (
             <>
-            <button onClick= {() => window.location.reload()}>Restart</button>
+                <button onClick= {() => window.location.reload()}>Restart</button>
             </>
         )
     }
