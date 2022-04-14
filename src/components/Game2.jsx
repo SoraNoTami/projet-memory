@@ -35,10 +35,11 @@ class Game2 extends React.Component {
 
     componentDidMount = () => {
         let array = [
-            "/images/alien_monster.jpg", "/images/anchor.jpg", "/images/cherries.jpg", "/images/cold_face.jpg",
-            "/images/french_fries.jpg", "/images/goblin.jpg", "/images/lollipop.jpg", "/images/panda.jpg",
-            "/images/alien_monster.jpg", "/images/anchor.jpg", "/images/cherries.jpg", "/images/cold_face.jpg",
-            "/images/french_fries.jpg", "/images/goblin.jpg", "/images/lollipop.jpg", "/images/panda.jpg"]
+            "/projet-memory/images/alien_monster.jpg", "/projet-memory/images/anchor.jpg", "/projet-memory/images/cherries.jpg", "/projet-memory/images/cold_face.jpg",
+            "/projet-memory/images/french_fries.jpg", "/projet-memory/images/goblin.jpg", "/projet-memory/images/lollipop.jpg", "/projet-memory/images/panda.jpg",
+            "/projet-memory/images/alien_monster.jpg", "/projet-memory/images/anchor.jpg", "/projet-memory/images/cherries.jpg", "/projet-memory/images/cold_face.jpg",
+            "/projet-memory/images/french_fries.jpg", "/projet-memory/images/goblin.jpg", "/projet-memory/images/lollipop.jpg", "/projet-memory/images/panda.jpg"
+        ]
         let picture = []
         for (let i = 0; i < 16; i++) {
             let numRandom = Math.floor((Math.random() * (array.length)))
