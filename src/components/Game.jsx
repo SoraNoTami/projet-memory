@@ -33,10 +33,10 @@ class Game extends React.Component {
 
     componentDidMount = () => {
         let array = [
-            "require(/images/alien_monster.jpg)", "require(/images/anchor.jpg)", "require(/images/cherries.jpg)", "require(/images/cold_face.jpg)",
-            "require(/images/french_fries.jpg)", "require(/images/goblin.jpg)", "require(/images/lollipop.jpg)", "require(/images/panda.jpg)",
-            "require(/images/alien_monster.jpg)", "require(/images/anchor.jpg)", "require(/images/cherries.jpg)", "require(/images/cold_face.jpg)",
-            "require(/images/french_fries.jpg)", "require(/images/goblin.jpg)", "require(/images/lollipop.jpg)", "require(/images/panda.jpg)"
+            "/projet-memory/images/alien_monster.jpg", "/projet-memory/images/anchor.jpg", "/projet-memory/images/cherries.jpg", "/projet-memory/images/cold_face.jpg",
+            "/projet-memory/images/french_fries.jpg", "/projet-memory/images/goblin.jpg", "/projet-memory/images/lollipop.jpg", "/projet-memory/images/panda.jpg",
+            "/projet-memory/images/alien_monster.jpg", "/projet-memory/images/anchor.jpg", "/projet-memory/images/cherries.jpg", "/projet-memory/images/cold_face.jpg",
+            "/projet-memory/images/french_fries.jpg", "/projet-memory/images/goblin.jpg", "/projet-memory/images/lollipop.jpg", "/projet-memory/images/panda.jpg"
         ]
         let picture = []
         for (let i = 0; i < 16; i++) {
